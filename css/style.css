@@ -80,15 +80,15 @@ strong{
     float: left;
     padding: 10px;
     height: 300px; 
-  }
+}
   
   .left, .right {
     width: 25%;
-  }
+}
   
   .middle {
     width: 50%;
-  }
+}
   .row:after {
     content: "";
     display: table;
