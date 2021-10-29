@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    
+    font-weight: 300;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    margin-bottom: 10px;
+}
+
+#logo img{
+    height: 50px;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+
+}
+
+nav{
+    margin: 40px 0;
+}
+
+nav li{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav li a{
+    color: gray;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    position: relative;
+    border-radius: 30px;
+}
+
+.banner-text{
+    position: absolute;
+}
+
+.bottom{
+    background-color: gold;
+    margin: 10px 0px;
+    height: 180px;
+}
+main{
+    background-color: blue;
+}
+main .top{
+    background-color: springgreen;
+    height: 60px;
+}
+.top2{
+    background-color: skyblue;
+}
+.col{
+    float: left;
+    margin: 10px 0;
+    height: 180px;
+}
+.colLx .ColRx{
+    width: 20%;
+}
+
