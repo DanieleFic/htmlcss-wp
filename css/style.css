@@ -49,6 +49,10 @@ nav li a:hover{
     text-decoration: underline;
 }
 
+strong{
+    font-size: 35px;
+    font-weight: bold;
+}
 .banner{
     position: relative;
     height: 50%;
@@ -91,7 +95,7 @@ nav li a:hover{
 .column {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
   }
   
   .left, .right {
@@ -102,13 +106,12 @@ nav li a:hover{
     width: 50%;
   }
   
-  /* Clear floats after the columns */
+  
   .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
 .column img{
     object-fit: cover;
     width: 100%;
@@ -118,15 +121,8 @@ nav li a:hover{
 }
 footer{
     font-size: 15px;
-    position: absolute; top: 150%; bottom: 50px; left: 45%; right: 0;
+    position: absolute; top: 190%;  left: 45%; right: 0;
 }
 #hearth{
     color: red;
 }
-
-
-
-
-
-
-
