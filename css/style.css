@@ -54,13 +54,11 @@ nav li a:hover{
     height: 50%;
 }
 
-.banner-image{
-    
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.1);
-    
+.banner-image img{
+    border-radius: 20px; 
+    height: auto;
+    width: 100%;
+
 }
 .banner-text{
     position: absolute;
@@ -75,9 +73,6 @@ nav li a:hover{
 }
 .banner-text2{
     font-size: 15px;
-}
-.banner-image{
-    border-radius: 20px; 
 }
 
 #lead{
